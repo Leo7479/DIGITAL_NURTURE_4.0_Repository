@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.App > div {
+  width: 30%;
+  padding: 20px;
+  border-right: 4px solid green; 
+  box-sizing: border-box;
+}
+
+.App > div:last-child {
+  border-right: none; 
+}
